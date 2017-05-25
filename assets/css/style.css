@@ -1,0 +1,18 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+div#map, #encuentrame{
+  height: 90vh;
+  width: 100%;
+}
+
+#encuentrame{
+  background-color: #F6A623;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  height: 4rem;
+}
