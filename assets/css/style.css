@@ -3,16 +3,46 @@
   margin: 0;
   padding: 0;
 }
-
-div#map, #encuentrame{
+nav{
+  display: flex;
+    align-items: center;
+}
+.navbar{
+  background-color: #F6A623;
+  margin: 0;
+}
+div#map{
   height: 90vh;
   width: 100%;
 }
 
-#encuentrame{
+.form-inline .form-control{
+  background-color: #F6A623;
+      color: #ffffff;
+      width: 35rem;
+      border-color: #ffffff;
+}
+
+.btn{
+  width: 18rem;
+      background-color: #ffffff;
+      font-weight: bold;
+}
+
+.linea{
+  border-left: 2px solid #ffffff;
+}
+
+i{
+  color: #ffffff;
+  padding: 0.6rem;
+  font-size: 2rem;
+}
+/*
+.buscar{
   background-color: #F6A623;
   color: #fff;
   font-size: 1.5rem;
   font-weight: bold;
   height: 4rem;
-}
+}*/
